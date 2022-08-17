@@ -17,3 +17,15 @@ code {
 span .destaque {
   font-weight: bold;
 }
+
+.titParte {
+  margin: 1em auto 0.6em;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.btn-dark {
+  text-align: left;
+}
