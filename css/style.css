@@ -4,6 +4,7 @@
 .corpo {
   width: 60%;
   min-width: 400px;
+  max-width: 700px;
   margin: auto;
 }
 p {
@@ -28,4 +29,9 @@ span .destaque {
 
 .btn-dark {
   text-align: left;
+}
+h2.subtitulo {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  color: grey;
 }

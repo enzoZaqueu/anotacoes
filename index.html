@@ -5,88 +5,190 @@
   <meta charset="utf-8">
   <link rel="shortcut icon" href="https://emoji-uc.akamaized.net/orig/a1/f22ecafd572379d4da9102e7520727.png">
   <title>Anotações | Enzo</title>
+
+  <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="htt ps://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap" rel="stylesheet">
+
+  <!-- BOOTSTRAP -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
+  <!-- STYLESHEET -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <div class="corpo">
-    <h1 class="text-center titulo">ANOTAÇÕES</h1>
+    <h1 class="text-center titulo mb-2">ANOTAÇÕES</h1>
+    <h2 class="subtitulo">em construção</h2>
 
     <!-- GERAL -->
 
     <h2 class="titParte">GERAL</h2>
 
-    <!-- refactoring -->
-    <div>
-      <p>
-        <a class="btn btn-dark d-block mt-3 mb-0" type="button" role="button" data-bs-toggle="collapse" href="#refactoring" aria-expanded="false" aria-controls="collapseExample">
-          Refactoring
-        </a>
-      </p>
-      <div class=" collapse card card-body mt-0" id="refactoring">
-        <p><b>Refactoring</b> é o ato de organizar seu código tendo em mente as seguintes diretrizes:</p>
-        <ul>
-          <li>Readability</li>
-          <li>Modularity</li>
-          <li>Efficiency</li>
-          <li>Lenght</li>
-        </ul>
-        <p>Deixe seu código DRY (<b>D</b>on't <b>R</b>epeat <b>Y</b>ourself), e não WET (<b>W</b>e <b>E</b>njoy <b>T</b>yping).</p>
+      <!-- refactoring -->
+      <div>
+        <p>
+          <a class="btn btn-dark d-block mt-3 mb-0" type="button" role="button" data-bs-toggle="collapse" href="#refactoring" aria-expanded="false" aria-controls="refactoring">
+            Refactoring
+          </a>
+        </p>
+        <div class=" collapse card card-body mt-0" id="refactoring">
+          <p><b>Refactoring</b> é o ato de organizar seu código tendo em mente as seguintes diretrizes:</p>
+          <ul>
+            <li>Readability</li>
+            <li>Modularity</li>
+            <li>Efficiency</li>
+            <li>Lenght</li>
+          </ul>
+          <p>Deixe seu código DRY (<b>D</b>on't <b>R</b>epeat <b>Y</b>ourself), e não WET (<b>W</b>e <b>E</b>njoy <b>T</b>yping).</p>
+        </div>
       </div>
-    </div>
 
-    <!-- HTML e CSS -->
+      <!-- Comentários -->
+      <div>
+        <p>
+          <a class="btn btn-dark d-block mt-3 mb-0" type="button" role="button" data-bs-toggle="collapse" href="#coment" aria-expanded="false" aria-controls="coment">
+            Comentários
+          </a>
+        </p>
+        <div class=" collapse card card-body mt-0" id="coment">
+          <p><code>&lt!-- Comentário --&gt</code> para arquivos de HTML.</p>
+          <p><code>/* Comentário */</code> para arquivos de CSS.</p>
+          <p><code>//Comentário</code> para arquivos de HTML.</p>
+          <p><b>Ctrl + /</b> geralmente funciona como atalho para comentar tudo.</p>
+        </div>
+      </div>
+
+      <!-- Nomeação -->
+      <div>
+        <p>
+          <a class="btn btn-dark d-block mt-3 mb-0" type="button" role="button" data-bs-toggle="collapse" href="#nome" aria-expanded="false" aria-controls="nome">
+            Nomeação
+          </a>
+        </p>
+        <div class=" collapse card card-body mt-0" id="nome">
+          <ul>
+            <li>Nomes significativos;</li>
+            <li>Keywords não podem ser usadas, mas podem fazer parte do nome completo;</li>
+            <li>Não pode começar com número;</li>
+            <li>Não pode ter espaço;</li>
+            <li>Não pode - , mas _ sim;</li>
+            <li>camelCasing.</li>
+          </ul>
+        </div>
+      </div>
+
+
+
+      <!-- HTML e CSS -->
 
     <h2 class="titParte">HTML CSS E BOOTSTRAP</h2>
 
-    <!-- CSS sizing -->
-    <div>
-      <p>
-        <a class="btn btn-dark d-block mt-3 mb-0" type="button" role="button" data-bs-toggle="collapse" href="#cssSizing" aria-expanded="false" aria-controls="collapseExample">
-          CSS sizing
-        </a>
-      </p>
-      <div class=" collapse card card-body mt-0" id="cssSizing">
-        <p>Visitar <a href="https://devdocs.io/css/css_values_and_units">UNIDADES E VALORES</a> para mais informações.</p>
-        <p><code>1 em</code> é igual à 16px e quando usado para determinar algum valor, ele é adicionado ao valor herdado.</p>
-        <p><code>1 rem</code>, igual ao EM, tem 16px, porém ele não é adicionado ao valor herdado, pois pega o valor original no <code>root</code>.</p>
-        <p><b>OBS.:</b> 100% de uma fonte é igual à 16px, assim como 1 EM/REM é igual à 16px. <b>PORÉM</b> ao usar PX ou REM o elemento se torna estático, enquanto EM e % são responsivos. <b>PORÉM 2</b> caso o usuário der zoom, pouco importa qual
-          o método utilizado</p>
+      <!-- CSS sizing -->
+      <div>
+        <p>
+          <a class="btn btn-dark d-block mt-3 mb-0" type="button" role="button" data-bs-toggle="collapse" href="#cssSizing" aria-expanded="false" aria-controls="cssSizing">
+            CSS sizing
+          </a>
+        </p>
+        <div class=" collapse card card-body mt-0" id="cssSizing">
+          <p>Visitar <a href="https://devdocs.io/css/css_values_and_units">UNIDADES E VALORES</a> para mais informações.</p>
+          <p><code>1 em</code> é igual à 16px e quando usado para determinar algum valor, ele é adicionado ao valor herdado.</p>
+          <p><code>1 rem</code>, igual ao EM, tem 16px, porém ele não é adicionado ao valor herdado, pois pega o valor original no <code>root</code>.</p>
+          <p><b>OBS.:</b> 100% de uma fonte é igual à 16px, assim como 1 EM/REM é igual à 16px. <b>PORÉM</b> ao usar PX ou REM o elemento se torna estático, enquanto EM e % são responsivos. <b>PORÉM 2</b> caso o usuário der zoom, pouco importa qual
+            o método utilizado</p>
+        </div>
       </div>
-    </div>
 
-
-    <!-- z-index -->
-    <div>
-      <p>
-        <a class="btn btn-dark d-block mt-3 mb-0" type="button" role="button" data-bs-toggle="collapse" href="#zindex" aria-expanded="false" aria-controls="collapseExample">
-          z-index
-        </a>
-      </p>
-      <div class=" collapse card card-body mt-0" id="zindex">
-        <p>Visitar <a href="https://devdocs.io/css/z-index">Z-INDEX</a> para mais informações.</p>
-        <p>Usando números inteiros ao determinar o valor de <code>z-index</code> de um elemento, você pode trazer algo pra frente ou colocar atrás, sendo que, quanto maior o valor, mais alta a "layer" que ele vai estar.</p>
+      <!-- z-index -->
+      <div>
+        <p>
+          <a class="btn btn-dark d-block mt-3 mb-0" type="button" role="button" data-bs-toggle="collapse" href="#zindex" aria-expanded="false" aria-controls="zindex">
+            z-index
+          </a>
+        </p>
+        <div class=" collapse card card-body mt-0" id="zindex">
+          <p>Visitar <a href="https://devdocs.io/css/z-index">Z-INDEX</a> para mais informações.</p>
+          <p>Usando números inteiros ao determinar o valor de <code>z-index</code> de um elemento, você pode trazer algo pra frente ou colocar atrás, sendo que, quanto maior o valor, mais alta a "layer" que ele vai estar.</p>
+        </div>
       </div>
-    </div>
 
-    <!-- Media querie -->
-    <div>
-      <p>
-        <a class="btn btn-dark d-block mt-3 mb-0" type="button" role="button" data-bs-toggle="collapse" href="#mediaquery" aria-expanded="false" aria-controls="collapseExample">
-          @media query
-        </a>
-      </p>
-      <div class=" collapse card card-body mt-0" id="mediaquery">
-        <p>Visitar <a href="https://devdocs.io/css/media_queries">Media Queries</a> para mais informações.</p>
-        <p>Media queries te possibilita adaptar os elementos de acordo com a mudança de valores de várias características e parâmetros.</p>
+      <!-- Media querie -->
+      <div>
+        <p>
+          <a class="btn btn-dark d-block mt-3 mb-0" type="button" role="button" data-bs-toggle="collapse" href="#mediaquery" aria-expanded="false" aria-controls="mediaquery">
+            @media query
+          </a>
+        </p>
+        <div class=" collapse card card-body mt-0" id="mediaquery">
+          <p>Visitar <a href="https://devdocs.io/css/media_queries">Media Queries</a> para mais informações.</p>
+          <p>Media queries te possibilita adaptar os elementos de acordo com a mudança de valores de várias características e parâmetros.</p>
+        </div>
       </div>
-    </div>
+
+      <!-- Combining selectors -->
+      <div>
+        <p>
+          <a class="btn btn-dark d-block mt-3 mb-0" type="button" role="button" data-bs-toggle="collapse" href="#selectors" aria-expanded="false" aria-controls="selectors">
+            Combining Selectors
+          </a>
+        </p>
+        <div class=" collapse card card-body mt-0" id="selectors">
+          <p>Visitar <a href="https://devdocs.io/css/specificity">Specificity</a> e <a href="https://devdocs.io/css/css_selectors">CSS Selectors</a> para mais informações.</p>
+          <p>Para organizar melhor classes e atributos, você os pode combinar e agrupar de diversas maneiras. Na sintaxe de CSS, você pode usar <code>h1, h2, h3 {color:red;}</code> para atribuir valores à mais de uma tag, mas é bom ter em mente que a falta da vírgula faz com que a sintaxe se torne específica, sendo assim uma declaração de CSS que diz <code>div h1 {color: red;}</code> irá procurar por TODOS os <code>h1</code> que estão dentro de uma <code>div</code>. Na mesma linha de pensamento, você pode atribuir mais de uma classe à um elemento usando <code>classe1 classe2 classe3</code>, e por aí vai.</p>
+          <p>Importante ressaltar que há uma hierarquia de uso dos elementos, o último a ser lido é o que prevalece.</p>
+        </div>
+      </div>
+
+    <h2 class="titParte">JavaScript</h2>
+
+      <!-- Keywords -->
+      <div>
+        <p>
+          <a class="btn btn-dark d-block mt-3 mb-0" type="button" role="button" data-bs-toggle="collapse" href="#keywords" aria-expanded="false" aria-controls="keywords">
+            Keywords
+          </a>
+        </p>
+        <div class=" collapse card card-body mt-0" id="keywords">
+          <p><code>window.alert();</code> faz  com que um pop-up apareça na tela com o que estiver dentro dos ( ).</p>
+          <p><code>typeof();</code> diz qual é o tipo de data.</p>
+          <p><code>prompt();</code> te permite inserir data em um pop-up (no navegado).</p>
+          <p><code>var.length();</code> diz o tamanho da string.</p>
+        </div>
+      </div>
+
+      <!-- Syntax -->
+      <div>
+        <p>
+          <a class="btn btn-dark d-block mt-3 mb-0" type="button" role="button" data-bs-toggle="collapse" href="#syntax" aria-expanded="false" aria-controls="syntax">
+            Syntax
+          </a>
+        </p>
+        <div class=" collapse card card-body mt-0" id="syntax">
+          <p>Método | <code>keyword(message);</code></p>
+          <p>Variável | <code>keyword variable = data</code></p>
+        </div>
+      </div>
+
+      <!-- Data -->
+      <div>
+        <p>
+          <a class="btn btn-dark d-block mt-3 mb-0" type="button" role="button" data-bs-toggle="collapse" href="#data" aria-expanded="false" aria-controls="data">
+            Tipos de data
+          </a>
+        </p>
+        <div class=" collapse card card-body mt-0" id="data">
+          <p><code>string</code> sempre dentro de "", é transformado em texto, podem ser concatenados.</p>
+          <p><code>number</code> números como 123 ou 1.4 e afins, podem ser usados em opeações.</p>
+          <p><code>boolean</code> é binário, true or false.</p>
+        </div>
+      </div>
+
 
   </div>
 </body>
