@@ -1,38 +1,42 @@
-.titulo {
-  margin: 2rem auto;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
 }
 
-.corpo {
-  width: 60%;
-  min-width: 400px;
-  max-width: 700px;
-  margin: auto;
-}
-p {
-  font-size: 1rem;
+header {
+  margin: 2em auto 1em;
 }
 
-code {
-  font-size: 1rem;
+section {
+  width: 450px;
+  margin: 3rem auto;
 }
 
 span .destaque {
   font-weight: bold;
 }
 
-.titParte {
-  margin: 1em auto 0.6em;
+h1, h2, h3 {
+  text-align: center;
+  line-height: 2rem;
 }
+
+h1 em {
+  font-size: 1.2rem;
+}
+
+section h3, h2 {
+  margin: auto auto 20px;
+  font-size: 1.4em;
+}
+
+.card {
+  margin: 1rem auto;
+}
+
+/* Aparência geral */
 
 ::-webkit-scrollbar {
     display: none;
-}
-
-.btn-dark {
-  text-align: left;
-}
-subtitulo {
-  text-align: center;
-  font-family: 'Cormorant Garamond', serif;
-  color: grey;
 }

@@ -14,7 +14,8 @@ Minhas anotações ao longo dos estudos, contendo itens que acho importantes de 
 
 ### Links
 
-- Live Site URL: [Minhas anotações](https://enzozaqueu.github.io/anotacoes/)
+- Live Site URL: [Notes (in progress)](https://enzozaqueu.github.io/anotacoes/)
+- Live Prototype: [Prototype](https://www.figma.com/proto/f1YXvH5ytPHFQCvxqR6gHi/Aplicativos?page-id=0%3A1&node-id=31%3A135&viewport=23%2C441%2C0.8&scaling=scale-down&starting-point-node-id=1%3A2)
 
 ## My process
 
